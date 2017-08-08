@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HeadView.h
 //  AddressInfo
 //
 //  Created by Alesary on 16/1/6.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface HeadView : UIView
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) IBOutlet UILabel *TitleLable;
 
 @end
-
